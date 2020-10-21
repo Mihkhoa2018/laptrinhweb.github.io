@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức</title>
+
+    <!-- Liên kết CSS Bootstrap -->
+    <link href="vender/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Font awesome, Google -->
+    <link rel="stylesheet" href="vender/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Custom css - Các file css do chúng ta tự viết -->
+    <link rel="stylesheet" href="assets/css/index.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/news.css">
+
+    <!-- liên kết Vuejs  -->
+    <script src="vender/vuejs/vue.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="banner-top-header">
+            <a href="#"><img src="assets/img/banner_samsung-3.png" alt="" style="width: 100%;"></a>
+        </div>
+        <div></div>
+        <div class="navbar-container">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #cd1818">
+                <a class="navbar-brand" href="index.html">MYPHONE</a>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm " aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-light" type="submit" id="button-addon2">
+                                <i class="fa fa-search" style="font-size:18px"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="fa fa-home" style="font-size:24px"></i><br />
+                                <span class="title">HOME</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dienthoai.html">
+                                <i class="fa fa-mobile-phone" style="font-size:24px"></i><br />
+                                <span class="title">ĐIỆN THOẠI</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tablet.html">
+                                <i class="fa fa-tablet" style="font-size:24px"></i><br />
+                                <span class="title">TABLET</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="laptop.html">
+                                <i class="fa fa-laptop" style="font-size:24px"></i><br />
+                                <span class="title">LAPTOP</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="phukien.html">
+                                <i class="fa fa-headphones" style="font-size:24px"></i><br />
+                                <span class="title">PHỤ KIỆN</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tintuc.html">
+                                <i class="fa fa-newspaper-o" style="font-size:24px"></i><br />
+                                <span class="title">TIN TỨC</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="giohang.html">
+                                <i class="fa fa-shopping-cart" style="font-size:24px"></i><br />
+                                <span class="title">GIỎ HÀNG</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="account.html">
+                                <i class="fa fa-user-circle-o" style="font-size:24px"></i><br />
+                                <span class="title">TÀI KHOẢN</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="title-news">
+            <span>Tin Tức</span>
+        </div>
+        <div class="ds-new">
+            <div class="new">
+                <a href="#">
+                    <div class="new-1">
+                        <img src="assets/img/new-img/new1_oppo-reno-4-z-5g-ra-mat-cover.jfif" alt="" style="width: 100%;">
+                        <div class="title-tintuc">
+                            <span>OPPO Reno4 Z 5G với màn hình 120Hz, chip Dimensity 800 ra mắt, giá 10.3 triệu đồng</span><br />
+                            <small>Sau một thời gian xuất hiện dưới dạng tin đồn thì mới đây, OPPO vừa cho ra mắt một chiếc điện thoại tầm trung mới của hãng, có tên gọi là Reno4 5G.</small>
+                        </div>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="new-1">
+                        <img src="assets/img/new-img/new3_thong-so-oneplus-8t-1.jpg" alt="" style="width: 100%;">
+                        <div class="title-tintuc">
+                            <span>CEO xác nhận OnePlus 8T Pro sẽ không ra mắt trong năm nay</span><br />
+                            <small>Vào ngày 14 tháng 10 tới, OnePlus 8T sẽ được ra mắt tại Ấn Độ và ngày hôm sau nó cũng được trình làng ở thị trường Trung Quốc. Các tin đồn cho biết Công ty sẽ không ra mắt OnePlus 8T Pro trong năm nay.</small>
+                        </div>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="new-1">
+                        <img src="assets/img/new-img/new2_samsung-galaxy-s20-fe-11.jpg" alt="" style="width: 100%;">
+                        <div class="title-tintuc">
+                            <span>Khả năng Zoom 3x của Samsung Galaxy S20 FE rất ấn tượng và hữu ích trong điều kiện thiếu sáng</span><br />
+                            <small>Nhờ vào thuật toán AI thông minh và tối ưu phần cứng, khả năng chụp Space Zoom của Samsung Galaxy S20 FE cũng không hề thua kém ‘đàn anh’, dù chỉ trang bị ống kính Zoom 3x. </small>
+                        </div>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="new-1">
+                        <img src="assets/img/new-img/new4-fe.jpg" alt="" style="width: 100%;">
+                        <div class="title-tintuc">
+                            <span>Tầm giá 15 triệu hơn, Samsung Galaxy S20 FE sở hữu những tính năng cao cấp nào?</span><br />
+                            <small>Samsung Galaxy S20 FE là phiên bản smartphone mong đợi nhất của iFan khi model này đáp ứng đầy đủ các tính năng “xịn sò” của flagship cùng mức giá hấp dẫn.</small>
+                        </div>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="new-1">
+                        <img src="assets/img/new-img/new6.jpg" alt="" style="width: 100%;">
+                        <div class="title-tintuc">
+                            <span>Báo cáo: OPPO A93 với 6 camera AI sẽ ra mắt vào ngày 6 tháng 10 tới</span><br />
+                            <small>OPPO A93 có thể là phiên bản đổi tên của OPPO F17 Pro.</small>
+                        </div>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="new-1">
+                        <img src="assets/img/new-img/new9.jpg" alt="" style="width: 100%;">
+                        <div class="title-tintuc">
+                            <span>Tròn mắt trước phiên bản iPhone 12 Pro với mặt lưng được lấy cảm hứng từ Apple I</span><br />
+                            <small>Do ảnh hưởng từ đại dịch Covid-19 nên năm nay, Apple dự kiến sẽ hoãn ra mắt loạt iPhone mới cho đến tháng 10 thay vì tháng 9 như mọi năm.</small>
+                        </div>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="new-1">
+                        <img src="assets/img/new-img/new7.jfif" alt="" style="width: 100%;">
+                        <div class="title-tintuc">
+                            <span>Cách tắt dấu chấm đỏ trên màn hình Apple Watch</span><br />
+                            <small>Dấu chấm đỏ trên màn hình Apple Watch thể hiện rằng đồng hồ của bạn đang có thông báo mới. Nếu không thích hoặc thấy không cần thiết, bạn có thể tắt nó đi.</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="sanpham-qc">
+                <h5>Sản phẩm mới</h5>
+                <a href="#">
+                    <div class="sanpham">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/9/25//637366209917910708_vivo-v20-xanh-dd.png" alt="">
+                        <span>Vivo V20 8GB -128GB</span>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="sanpham">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/9/7//637350931609117767_xiaomi-poco-x3-xam-dd.png" alt="">
+                        <span>Poco X3 NFC 6GB-128GB</span>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="sanpham">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/9/17//637359494094896144_vsmart-aris-pro-xanh-dd.png" alt="">
+                        <span>Vsmart Aris Pro 8GB-128GB</span>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="sanpham">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/3/27//637209162252840704_ss-m21-xanh-dd.png " alt="">
+                        <span>Samsung Galaxy M21</span>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="sanpham">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/4/28//637236791683138737_reno-3-dd.png" alt="">
+                        <span>Oppo Reno3 8GB-128GB</span>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="sanpham">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/4/21//637230565234443213_ip-se-dd.png" alt="">
+                        <span>iPhone SE (2020) 64GB</span>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="sanpham">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/3/18//637201445439339882_realme-6-xanh-dd.png" alt="">
+                        <span>Realme 6 4GB-128GB</span>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="sanpham">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/5//637322667006838510_ss-note-20-gold-dd.png" alt="">
+                        <span>Samsung Galaxy Z Fold2 5G</span>
+                    </div>
+                </a>
+                <hr />
+                <a href="#">
+                    <div class="sanpham">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/25//637339682404344913_oppo-a53-dd.png" alt="">
+                        <span>Oppo A31 4GB-128GB</span>
+                    </div>
+                </a>
+                <hr />
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-footer">
+            <div class="col-footer">
+                <h6>THÔNG TIN HỖ TRỢ</h6>
+                <a href="gioithieu.html"><span>Giới thiệu công ty MYPHONE</span></a><br />
+                <a href="# "><span>Chính sách bảo mật</span></a><br />
+                <div class="thanhtoan ">
+                    <i class="fa fa-cc-paypal" style="color: rgb(4, 4, 165);"></i>
+                    <i class="fa fa-cc-jcb" style="color: rgb(238, 127, 0);"></i>
+                    <i class="fa fa-cc-mastercard" style="color: rgb(224, 3, 3);"></i>
+                    <i class="fa fa-cc-visa" style="color: rgb(4, 4, 165);"></i>
+                    <br />
+                    <img src="assets/img/logoSaleNoti.png " alt=" " style="width: 30%; ">
+                </div>
+            </div>
+            <div class="col-footer col-footer-mid">
+                <h6>THÔNG TIN LIÊN LẠC</h6>
+                <span>Giọi mua hàng miến phí: 0398423952</span><br />
+                <span>Gọi khiếu nại & bảo hành: 0569645235</span><br />
+                <span>Gọi hợp tác kinh doanh: 113</span>
+                <div class="lienhe ">
+                    <a target="_blank " href="https://www.facebook.com/Mihkhoadao "><i class="facebook fa fa-facebook-official " style="font-size:24px "></i>&nbsp;&nbsp;</a>
+                    <a target="_blank " href="https://www.youtube.com/channel/UCEnXcLsYXby3vxZMGx63wlg "><i class="youtube fa fa-youtube-play " style="font-size:24px "></i></a>
+                </div>
+            </div>
+            <div class="col-footer">
+                <h6>CHI NHÁNH BÁN HÀNG</h6>
+                <span><strong>Hà Nội:</strong> ở Hà Nội</span><br />
+                <span><strong>Đà Nẵng:</strong> ở Đà Nẵng</span><br />
+                <span><strong>Vũng Tàu:</strong> ở Vũng Tàu</span><br />
+                <span><strong>TP.HCM:</strong> ở TP HCM</span><br />
+                <span><strong>TP.Cần Thơ:</strong> 30/4, Ninh Kiều, Hưng Lợi, TP Cần Thơ</span>
+            </div>
+        </div>
+        <i class="fa fa-angle-up" onclick="topFunction()" id="myBtn" title="Go to top"></i>
+
+        <div class="fback" data-toggle="modal" data-target="#ModalCenter"><span>Feedback</span></div>
+        <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="title-modal" id="exampleModalLongTitle">Góp Ý</span>
+                    </div>
+                    <div class="modal-body">
+                        <div id="feedback-rb">
+                            <form action="#" method="POST" novalidate="true" @submit="">
+                                <div class="gopy">
+                                    <label for="#"><span>Quý khách đang quan tâm về:</span></label>
+                                    <div>
+                                        <select name="chonchude" id="chonchude">
+                                            <option value="0">Chọn chủ đề</option>
+                                            <option value="1">Tư vấn</option>
+                                            <option value="2">Khiếu nại - Phản ánh</option>
+                                            <option value="3">Góp ý cải tiến</option>
+                                        </select><br />
+                                        <small></small>
+                                    </div>
+                                    <label for="title-gopy">Tiêu đề:</label>
+                                    <div>
+                                        <input type="text" id="title-gopy" name="title-gopy" v-modal="title-gopy"><br />
+                                        <small></small>
+                                    </div>
+                                    <label for="noidung-gopy">Nội dung</label>
+                                    <div>
+                                        <textarea name="noidung-gopy" id="noidung-gopy" cols="25" rows="5" v-modal="noidung-gopy"></textarea><br />
+                                        <small></small>
+                                    </div>
+                                    <label for="hoten-gopy">Họ và tên:</label>
+                                    <div>
+                                        <input type="text" id="hoten-gopy" name="hoten-gopy" v-modal="hoten-gopy"><br />
+                                        <small></small>
+                                    </div>
+                                    <label for="diachi-gopy">Địa chỉ Email:</label>
+                                    <div>
+                                        <input type="text" id="diachi-gopy" name="diachi-gopy" v-modal="diachi-gopy"><br />
+                                        <small></small>
+                                    </div>
+                                </div>
+                                <div class="btn-modal-fb">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
+                                    <button type="submit" class="btn btn-primary">Gửi liên hệ</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <div class="banquyen"><span>Bản Quyền &copy; thuộc về MihKhoa</span></div>
+
+
+    <!-- Liên kết Jquery -->
+    <script src="vender/jquery/jquery.min.js "></script>
+    <!-- Liên kết PopperJS -->
+    <script src="vender/popperjs/popper.min.js "></script>
+    <!-- Liên kết Bootstrap -->
+    <script src="vender/bootstrap/js/bootstrap.min.js "></script>
+    <!-- Custom script - Các file js do mình tự viết -->
+    <script src="assets/js/index.js "></script>
+    <script src="assets/js/product.js "></script>
+
+</body>
+
+</html>
